@@ -1,3 +1,8 @@
+import datetime
+import json
+import pickle
+import random
+
 obj ={"name":"ayyoob",'age':20}
 str = "my name is {} and age is {}".format(obj['name'],obj['age'])
 print(str)
@@ -70,6 +75,57 @@ nasteddist = {'php':{'name':"abb"},'php2':{'name':"abb2"},'php3':{'name':"abb3"}
 # print(abc(15))
 
 # random module
+# choice() return a random element from a list
 # random() return a float random number bw 0 - 1
 # shuffle() takes a sequence and return it random order
 # uniform() return a random float number bw to given parameter
+# random.randrange(1,101)  return a random number bw to given parameter
+
+
+# r = random.random()
+# print(r)
+#
+# time = datetime.datetime.now()
+# print(time)
+
+# pickle module is use for read and write
+# dump() to write, wb - write binary and load() to read , rb readbinary ,
+
+# l2 = [525,64564,54,54,4,52,]
+#
+# file = open('write.txt','wb')
+# pickle.dump(l2,file)
+# file.close()
+
+# file = open('write.txt','rb')
+# print(pickle.load(file))
+
+# to convert dictionary to json json.dumps(dictionary)
+#  convert json to python json.loads(jsonData)
+
+
+# read a json file in python
+# file = open('file.json','r')
+# read = file.read()
+# dictfile = json.loads(read)
+# print(dictfile)
+
+# Class
+# class AddAll:
+#     y=100
+#     def abcd(self):
+#         print(self.y)
+#         b=10+self.y
+#         print(b)
+# abc = AddAll()
+# print(abc.y)
+# abc.abcd()
+
+# constructor
+# class Constructors:
+#     def __init__(self):
+#         print("hey there how are you")
+# constr = Constructors()
+
+
+
