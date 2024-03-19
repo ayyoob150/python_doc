@@ -208,3 +208,29 @@ nasteddist = {'php':{'name':"abb"},'php2':{'name':"abb2"},'php3':{'name':"abb3"}
 #
 # obj = A2()
 # obj.abc()
+
+# overloading exp -------------------
+# class Area:
+#     def findArea(self,a=None,b=None):
+#         if a!=None and b!=None:
+#             print(a*b)
+#         elif a!=None:
+#             print(a*a)
+#         else:
+#             print('nothing')
+# area = Area()
+# area.findArea()
+# area.findArea(12)
+# area.findArea(10,10)
+
+
+# type of errors ZeroDivisionError NameError TypeError ValueError IndexError KeyError ModuleNotFoundError ImportError
+------------------------------------------------------
+# install django on virtual enviroment
+# python -m venv myfolder name
+# -m means module
+# into the virtual enviroment which have created go there  and check there is scripts folder and there activate file run it in cmd
+# cd myfoldername cd scripts and .\activate
+# pip install django
+#  django-admin startproject projectname
+# python manage.py runserver (to run this project)
